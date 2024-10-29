@@ -1,0 +1,29 @@
+.jumbotron {
+    background-color: #c1dbe3;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.jumbotron h1 {
+    color:#6D98BA 
+}
+
+img {
+    width:100%;
+    height:100%;
+    padding: 15px;
+    border:
+}
+
+.about {
+    color:#ffffff;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background-color: #F7F9F9;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
