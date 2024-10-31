@@ -1,6 +1,6 @@
 p {
     font-size: 25px;
-    font-family: "Times New Roman", Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -10,4 +10,35 @@ h1 {
 iframe {
     width:750px;
     height:400px;
+}
+
+.jumbotron {
+    background: url(https://cdn.pixabay.com/photo/2022/10/11/21/58/texture-7515225_1280.jpg)
+}
+
+small {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img {
+    height:290px;
+    width:100%;
+    border-radius:10px;
+    border-color: #BCD39C;
+}
+
+.colsm7 {
+    background-color: azure;
+}
+
+.head {
+    font-weight: bold;
+    font-size:28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.graph {
+    font-size:15px;
 }

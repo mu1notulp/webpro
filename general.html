@@ -12,6 +12,30 @@
         
         <title>Portfolio</title>
         <link rel="stylesheet" type="text/css" href="general.css">
+
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+        <style>
+            html,body
+            {
+             height:95%;   
+            }
+                #ball{
+                    /*border-radius:100px;*/
+                    height:50px;
+                    width:50px;
+                    background-color:#BCD39C;
+                    position:relative;
+                }
+                #container
+                {
+                    width:100%;
+                    height:100%;
+                    display:flex;
+                    align-items:flex-end;
+                    justify-content:center;
+                    position:relative;
+                }
+            </style>
 </head>
 <body>
     <div class = "container-fluid">
@@ -20,9 +44,26 @@
         </div>
     </div>
 
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class = "navbar-brand" href="#">WrldFirst</a>
+            </div>
+                <ul class="nav navbar-nav">
+                    <li><a href = "index.html">Home</a></li>
+                    <li class = active><a href = "general.html">General</a></li>
+                    <li><a href = "work.html"></a>Intitiatives</li>
+                    <li><a href = "#">What you can do</a></li>
+                    <li><a href = "#">Contact Us</a></li>
+                    <li><a href = "#">Resources</a></li>
+                </ul>
+        </div>
+    </nav>
+
     <div class = "row">
-        <div class = "col-sm-7 bg-info">
-            <p>Climate change is characterized by gradual but detrimental changes in local, regional, and global weather patterns over an extended period of time, estimated to have started taking effect in the mid-1800's, climate change has only become a major issue in recent decades when our CO2 emissions increased dramatically due to industrialization.</p>
+        <div class = "col-sm-7">
+            <h1 class = "head">Climate Change vs. Global Warming</h1>
+            <p class = "content">Climate change is characterized by gradual but detrimental changes in local, regional, and global weather patterns over an extended period of time, estimated to have started taking effect in the mid-1800's, climate change has only become a major issue in recent decades when our CO2 emissions increased dramatically due to industrialization. Climate change and global warming are profoundly altering ecosystems, weather patterns, and sea levels. Rising temperatures lead to more extreme weather events, such as hurricanes, droughts, and floods, impacting agriculture, water supply, and human health. Melting polar ice and glaciers contribute to rising sea levels, threatening coastal communities. Additionally, biodiversity is at risk as species struggle to adapt to changing habitats. The economic repercussions are significant, with increased costs for disaster relief, infrastructure damage, and shifts in agricultural productivity. Urgent action is needed to mitigate these impacts and transition to sustainable practices. Climate change refers to long-term shifts in temperatures and weather patterns, while global warming specifically denotes the rise in Earth's average surface temperature due to increased greenhouse gas emissions.</p>
         </div>
         <div class = "col-sm-5">
             <h3><span class = "glyphicon glyphicon-globe"></span> "NASA's official web section on Climate Change</h3>
@@ -31,11 +72,25 @@
     </div>
 
     <div class = "row">
-        <div class = "col-sm-6">
+        <div class = "col-sm-5">
+            <img src = "https://sotp.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/02/1024px-Greenhouse-effect-t2.svg_-637x386.png">
+            <small>Source: Columbia University</small>
         </div>
-        <div class = "col-sm-6 bg-info">
-            <h1>How does global warming occur?</h1>
-            <p>In environmental science, global warming is a trend of intense heatwaves, droughts, and increased temperatures throughout Earth, due to the trapping of CO2 in our atmosphere. Many people don't understand how this works, but it's simple to understand. Carbon Dioxide (CO2) is classified as a greenhouse gas, these gases absorb infrared radiation or heat emitted from Earth's core throught the surface, trapping it inside the atmosphere. This prevents it from depositing into space and maintain equillibrium in the atmosphere. This in turn, raises Earth's temperatures. </p>
+        <div class = "col-sm-7">
+            <h1 class = "head">How does global warming occur?</h1>
+            <p class = "content">In environmental science, global warming is a trend of intense heatwaves, droughts, and increased temperatures throughout Earth, due to the trapping of CO2 in our atmosphere. Many people don't understand how this works, but it's simple to understand. Carbon Dioxide (CO2) is classified as a greenhouse gas, these gases absorb infrared radiation or heat emitted from Earth's core through the surface, trapping it inside the atmosphere. This prevents it from depositing into space and maintain equillibrium in the atmosphere. This in turn, raises Earth's temperatures, known as "The Greenhouse Effect".</p>
+        </div>
+    </div>
+    
+    <div class = "row">
+        <div class = "col-sm-1">
+            <p class = "graph">CO2 Emissions (Per Capita)</p>
+        </div>
+        <div class = "col-sm-10">
+        </div>
+    
+        <div class = "col-sm-1">
+            <p class = "graph">Here is a visual representation of the increased concentration of CO2 in our atmosphere. Just click "See the Change". This is just in a century.</p>
         </div>
     </div>
 </body>
