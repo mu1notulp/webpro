@@ -13,7 +13,7 @@ iframe {
 }
 
 .jumbotron {
-    background: url(https://cdn.pixabay.com/photo/2022/10/11/21/58/texture-7515225_1280.jpg)
+    background-color: #C1DBE3;
 }
 
 small {
@@ -29,8 +29,8 @@ img {
     border-color: #BCD39C;
 }
 
-.colsm7 {
-    background-color: azure;
+body {
+    background-color: #C7DFC5;
 }
 
 .head {
@@ -41,4 +41,22 @@ img {
 
 .graph {
     font-size:15px;
+}
+
+li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head {
+    margin-top: 15px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+}
+
+.content {
+    background-color:#C1DBE3;
+    border-bottom: solid 5px black;
+    border-top: solid 5px black;
+    border-left: solid 5px black;
+    border-right: solid 5px black;
 }
